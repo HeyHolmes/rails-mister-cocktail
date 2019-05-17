@@ -14,5 +14,13 @@
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
-
+import Sortable from 'sortable';
+import 'bootstrap';
 console.log('Hello World from Webpacker')
+
+const element = document.getElementById("sortable-af");
+if (element) {
+  const sortable = new Sortable(element, {
+    animation: 150
+  });
+}

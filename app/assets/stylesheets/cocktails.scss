@@ -1,0 +1,43 @@
+// Place all the styles related to the cocktails controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Heebo&display=swap');
+
+
+body {
+  background-color:#323639;
+}
+h1 {
+  margin-left:12px;
+}
+ul {
+  padding-left: 20px;
+}
+.container{
+  background: #f3f3f3;
+  padding: 50px 50px 50px 50px;
+}
+.header {
+  margin-top: 7%;
+  margin-bottom: 2%;
+  display:flex;
+  vertical-align:center;
+}
+
+.reko-list a {
+  text-decoration: none;
+  font-family: 'Heebo', sans-serif;
+}
+
+
+.reko-count {
+  background-color:#e55126;
+  padding: 0 auto;
+  text-align:center;
+  width: 55px;
+  border-radius: 37px;
+  padding-top: 6px;
+  color: white;
+  font-size: 30px;
+  vertical-align: center;
+}

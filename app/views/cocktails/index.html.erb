@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="header">
+        <div class="reko-count">23</div>
+        <div class="reko-title"><h1>New Drink Rekos</h1></div>
+        <p></p>
+    </div>
+    <div class="reko-list" id="sortable-af">
+        <% @cocktails.each do |c| %>
+          <%= link_to c do %>
+            <div class='card' style draggable="true" data-id="<%= c.id %>">
+              <h2> <%= c.name %> </h2>
+              <img src="https://cdn.liquor.com/wp-content/uploads/2018/11/06140542/daiquiri-600-480-hub.jpg" alt="BlackMirror">
+            </div>
+          <% end %>
+        <% end %>
+        <%= link_to "Add New Reko", new_cocktail_path %>
+    </div>
+</div>

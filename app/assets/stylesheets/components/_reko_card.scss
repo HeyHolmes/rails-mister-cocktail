@@ -1,0 +1,23 @@
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin: 25px 0px;
+  height: 120px;
+  padding-left: 16px;
+  color: #2d3133;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 5px 5px 19px 8px rgba(0,0,0,0.12);
+}
+
+.card img {
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  border-radius: 0 15px 15px 0;
+}
+
